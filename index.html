@@ -1,9 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Travel Agency</title>
+        <Style>
+            nav {
+                font-size: 200%;
+                background-color: #172463;
+                color: white;
+                position: fixed; 
+                top: 0px;
+                padding: 0.1%;
+                width: 100%;
+                height: 13%;
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+            body {
+                background-color: #ddf2fc;
+            }
+            ul {
+                list-style-type: none;
+                overflow: hidden;
+                background-color: #172463;
+                padding: 0;
+                width: 100%;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #111;
+            }
+
+            .active {
+                background-color: #4c64d6;
+                
+            }
+            
+        </Style>
     </head>
     <body>
+        <nav>
+            <div>
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#Flights">Flights</a></li>
+                    <li><a href="#Money Transfer">Money Transfer</a></li>
+                    <li><a href="#about us">About us</a></li>
+                </ul>
+            </div>
+            <h1>Making Memories</h1>
+            <img src="logo.webp" alt="website_logo" width="150" height="150">
+        </nav>
 
+        
+                              
     </body>
 </html>
