@@ -3,7 +3,7 @@
     <head>
         <title>Travel Agency</title>
         <Style>
-            nav {
+            #header {
                 font-size: 200%;
                 background-color: #172463;
                 color: white;
@@ -14,6 +14,9 @@
                 height: 13%;
                 display: grid;
                 grid-template-columns: auto auto auto;
+            }
+            #email{
+                
             }
             body {
                 background-color: #ddf2fc;
@@ -50,7 +53,8 @@
         </Style>
     </head>
     <body>
-        <nav>
+           
+        <nav id="header">
             <div>
                 <ul>
                     <li><a class="active" href="#home">Home</a></li>
@@ -63,7 +67,20 @@
             <img src="logo.webp" alt="website_logo" width="150" height="150">
         </nav>
 
+        <h3>Show an email field </h3>
+        <h3>Show an email field </h3>
+        <h3>Show an email field </h3>
+
+        <nav id="email">
+        <form action="/action_page.php">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+            <input type="submit">
+          </form>
+        </nav>      
         
-                              
+        <footer>
+            <p></p>
+        </footer>
     </body>
 </html>
