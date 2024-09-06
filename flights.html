@@ -52,6 +52,12 @@
                 text-align: center;
                 color: white;
             }
+            .grid {
+                margin-top: 5%;
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+            
         </Style>
     </head>
     <body>
@@ -70,13 +76,15 @@
 
         <h3>Show an email field </h3>
         <h3>Show an email field </h3>
-        <h3>Show an email field </h3>
+
+        <div class="grid">
+            <img src="flight.jpeg" alt="two people exchanging currency" height="500">
 
             <form action="/action_page.php">
-                    <label for="from">Flying From:</label><br>
-                    <input type="text" id="from" name="from" value="city or airport"><br>
-                    <label for="lname">Flying To:</label><br>
-                    <input type="text" id="To" name="To" value="city or airport"><br>
+                <label for="from">Flying From:</label><br>
+                <input type="text" id="from" name="from" value="city or airport"><br>
+                <label for="lname">Flying To:</label><br>
+                <input type="text" id="To" name="To" value="city or airport"><br>
                 <label for="lname">Departing:</label><br>
                 <input type="date" id="Departing" name="Departing"><br>
                 <label for="lname">Returning:</label><br>
@@ -103,6 +111,7 @@
 
                 <input type="submit" value="Submit">
             </form>
+        </div>
         
 
         <footer>
