@@ -45,22 +45,28 @@
             .active {
                 background-color: #4c64d6;
                 
-            }
+            }                                                                                                                        
             footer {
                 background-color: #172463;
                 padding: 10px;
                 text-align: center;
                 color: white;
             }
+            .grid {
+                margin-top: 5%;
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+            
         </Style>
     </head>
     <body>
         <nav id="header">
             <div>
                 <ul>
-                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="flights.html">Flights</a></li>
-                    <li><a href="#Money Transfer">Money Transfer</a></li>
+                    <li><a href="moneyTransfer.html">Money Transfer</a></li>
                     <li><a href="#about us">About us</a></li>
                 </ul>
             </div>
@@ -70,40 +76,43 @@
 
         <h3>Show an email field </h3>
         <h3>Show an email field </h3>
-        <h3>Show an email field </h3>
 
-        <form action="/action_page.php">
-            <label for="from">Flying From:</label><br>
-            <input type="text" id="from" name="from" value="city or airport"><br>
-            <label for="lname">Flying To:</label><br>
-            <input type="text" id="To" name="To" value="city or airport"><br>
+        <div class="grid">
+            <img src="flight.jpeg" alt="two people exchanging currency" height="500">
 
-            <label for="lname">Departing:</label><br>
-            <input type="date" id="Departing" name="Departing"><br>
-            <label for="lname">Returning:</label><br>
-            <input type="date" id="Returning" name="Returning"><br>
+            <form action="/action_page.php">
+                <label for="from">Flying From:</label><br>
+                <input type="text" id="from" name="from" value="city or airport"><br>
+                <label for="lname">Flying To:</label><br>
+                <input type="text" id="To" name="To" value="city or airport"><br>
+                <label for="lname">Departing:</label><br>
+                <input type="date" id="Departing" name="Departing"><br>
+                <label for="lname">Returning:</label><br>
+                <input type="date" id="Returning" name="Returning"><br>
 
-            <label for="adultNum">Adult (12+)</label>
-            <select id="adultNum" name="adultNum">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-            </select><br>
-            <label for="childNum">Child</label>
-            <select id="childNum" name="childNum">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-            </select><br><br>
+                <label for="adultNum">Adult (12+)</label>
+                <select id="adultNum" name="adultNum">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select><br>
+                <label for="childNum">Child</label>
+                <select id="childNum" name="childNum">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select><br><br>
 
-            <input type="submit" value="Submit">
-        </form>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
 
         <footer>
             <p>Making Memories is a company accredited by Better Business Bureal (BBB), with maximum grade: A+. Making Memories values ​​exceptional service and total customer satisfaction.</p>
